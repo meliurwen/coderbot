@@ -78,3 +78,8 @@ pyvenv.cfg
 dist/
 
 coderbot.cfg
+
+
+# Generated Program Status Files
+_coderbot_generated_program.tmp.py
+tmp/*

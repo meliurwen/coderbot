@@ -89,6 +89,20 @@ paths:
       responses:
         200:
           description: "ok"
+  /exec_experimental:
+    post:
+      operationId: "api.exec_experimental"
+      summary: "Execute the given program (experimental)"
+      tags:
+        - Program management
+      parameters:
+        - in: body
+          name: data
+          schema:
+            type: object
+      responses:
+        200:
+          description: "ok"
   /status:
     get:
       operationId: "api.status"
